@@ -1,11 +1,11 @@
 '''BOMusic'''
 
-from tkinter import *
+from tkinter import * 
 import pygame
 
 class App3(Toplevel):
 
-    cor1 = '#171717'
+    cor1 = '#171717' # Variavel paracor
     cor2 = '#58009D'
     cor3 = '#efefef'
 
