@@ -5,8 +5,8 @@ from musica1 import App  #importando classes
 from musicas import Musicas 
 
 class Inicio():
-    cor1 = '#171717'           
-    cor2 = '#58009D'    #variáveis de cores
+    cor1 = '#171717'       #variáveis de cores    
+    cor2 = '#58009D'    
     cor3 = '#efefef'
 
     def __init__(self):
@@ -82,7 +82,7 @@ class Inicio():
         title.place(rely = 0.06, relx = 0.22)           #posicionando widgets
 
     def widgetsimg(self):
-        self.fone = PhotoImage(file = 'provaDevSistemas\logo.png')
+        self.fone = PhotoImage(file = 'provaDevSistemas\logo.png') #colocando imagem
         self.img = Label(
             self.logo,
             image = self.fone,
